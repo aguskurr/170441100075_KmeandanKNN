@@ -356,10 +356,10 @@
                 
                 <p><strong>Langkah K-Means Clustering</strong></p>
 <ol>
-<li>Menentukan secara acak K titik data sebagai pusat cluster yaitu disebut centroid.<img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk1.png" /></li>
+<li>Menentukan secara acak K titik data sebagai pusat cluster yaitu disebut centroid.<img alt="Mkdocs material" src="../assets/images/kk1.png" /></li>
 </ol>
 <p>Menggunakan 3 centroid, yaitu individu 2,6,3.</p>
-<p>.<img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk2.png" /></p>
+<p>.<img alt="Mkdocs material" src="../assets/images/kk2.png" /></p>
 <ol>
 <li>Menghitung  jarak x  ke masing-masing pusat cluster. Penyelesaian di Microsoft Excel dengan rumus sebagai berikut:</li>
 </ol>
@@ -381,7 +381,7 @@
 <p>K= Cluster</p>
 <p>X= Objek</p>
 <p>Selanjutnya masukkan x  anggota centroid tertentu yang  memiliki jarak terdekat dengan pusat cluster, jarak terdekat dipilih dari anggota centroid yang paling mendekati 0 karena jika nilai semakin mendekati 0 maka akan semakin mirip dengan pusat cluster (centroid). Lalu tandai masing-masing x  yang masuk ke cluster tertentu seperti dalam tabel berikut:</p>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk3.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk3.PNG" /></p>
 <p>Sehingga, di dapatkan tiga cluster  dengan anggota pada individu: {1,2}, {4,5,6}.{3,7}</p>
 <ol>
 <li>Lalu menghitung  rata-rata dari anggota cluster. Penyelesaian menggunakan Microsoft Excel dengan rumus sebagai berikut:</li>
@@ -404,41 +404,41 @@
 <p>n = Jumlah anggota cluster</p>
 <p>X = Anggota cluster</p>
 <p>​            Sehingga didapatkan tabel rata-rata sebagai berikut:</p>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk4.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk4.PNG" /></p>
 <p>Selanjutnya hasil perhitungan rata-rata tersebut dipergunakan untuk menghitung centroid
 baru, dengan penyelesaian menggunakan Microsoft Excel dengan rumus sebagai
 berikut:</p>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk5.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk5.PNG" /></p>
 <p>Keterangan:</p>
 <p>​            x = rata-rata anggota cluster</p>
 <p>​            X = Objek</p>
 <p>Selanjutnya masukkan x anggota centroid tertentu yang  memiliki jarak terdekat dengan pusat cluster, jarak terdekat dipilih dari anggota centroid yang paling mendekati 0 karena jika nilai semakin mendekati 0 maka akan semakin mirip. Lalu tandai masing-masing x yang masuk ke cluster tertentu seperti dalam tabel berikut:</p>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk6.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk6.PNG" /></p>
 <p>Sehingga, Kita dapatkan tiga cluster  dengan anggotanya pada individu: {1,2}, {4,5,6,7} </p>
 <ol>
 <li>Ulangai langkah 2 dan 3 sampai tidak ada  dari anggota setiap cluster berubah tempat kelompoknya. Dan dikarenakan dalam contoh ini mengahasilkan anggota cluster yang tidak berubah tempat kelompoknya maka tidak ada pengulangan untuk langkah 2 dan 3.</li>
 </ol>
 <p><strong>Menentukan Jumlah Cluter</strong></p>
-<p><img alt="img" src="file:///C:/Users/asus/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png" /></p>
+<p>V adility = intra/inter</p>
 <p>Keterangan:</p>
 <p>Jarak Intra cluster =  ∑<em>(i=1)^k▒∑</em>(x∈c_i)▒〖(x-z_i )^2  〗</p>
 <p>Jarak Inter-cluster = min  (zi –zj)2</p>
 <p>i=1,2,3…K-1</p>
 <p>J=i+1,…K</p>
 <p>​            Implementasi pada Microsoft Excel sebagai berikut:</p>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk7.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk7.PNG" /></p>
 <p><strong>Menghitung Silhoutte</strong></p>
 <ol>
 <li>Hitung rata-rata jarak objek dengan semua objek lain yang berada di dalam satu cluster dengan persamaan :</li>
 </ol>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk8.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk8.PNG" /></p>
 <p>Dengan penyelesaian menggunakan Microsoft Excel dengan rumus sebagai berikut:</p>
 <p>Keterangan :</p>
 <p>​   X = Objek</p>
 <ol>
 <li>Hitung rata-rata jarak objek dengan semua objek lain yang berada pada cluster lain, dengan persamaan :</li>
 </ol>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk9.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk9.PNG" /></p>
 <p>Penyelesaian menghitung jarak menggunakan Microsoft Excel dengan rumus sebagai berikut:</p>
 <table>
 <thead>
@@ -481,19 +481,19 @@ berikut:</p>
 <p><strong>Hasil Implementasi Pada Excel</strong></p>
 <ol>
 <li>Shilhoutte Cluster 1
-   <img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk10.png" /></li>
+   <img alt="Mkdocs material" src="../assets/images/kk10.PNG" /></li>
 </ol>
 <p>Hasil nilai silhouette coefficient adalah <strong>mendekati 1 maka pengelompokan data didalam cluster 1 bersifat baik</strong></p>
 <ol>
 <li>Shilhoutte Cluster 2</li>
 </ol>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk11.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk11.PNG" /></p>
 <p>Hasil nilai silhouette coefficient <strong>adalah mendekati -1 maka pengelompokan data
 didalam cluster 1 bersifat kurang baik.</strong></p>
 <ol>
-<li>Shilhoutte Cluster 2</li>
+<li>Shilhoutte Cluster 3</li>
 </ol>
-<p><img alt="" src="D:\Kuliah\Semester 4\Data Mining\app github pages\mkdocs-material-master\docs\assets\images\kk12.png" /></p>
+<p><img alt="Mkdocs material" src="../assets/images/kk12.PNG" /></p>
 <p>Hasil nilai silhouette coefficient adalah <strong>mendekati -1 maka pengelompokan data
 didalam cluster 1 bersifat kurang baik.</strong></p>
                 
